@@ -434,15 +434,6 @@ generate dynamic content. This could involve executing scripts written in langua
 Java, or Node.js. The application server handles the core business logic, processing user inputs,
 querying databases, and preparing data for the user.
 
-Database
-Dynamic content requires data stored in databases. The application server queries a database 
-to retrieve necessary information. The database returns the requested data to the application server.
-
-After processing your request, the application server sends the generated content back to the web server,
-which forwards it to the load balancer. The load balancer routes the response back to your browser through 
-the established secure connection.
-
-
 
 HTTP protocol
 -------------
